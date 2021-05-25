@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Footer from "./components/Footer/Footer";
 //Components
 import NavBar from "./components/NavBar/NavBar";
 import FourOFourScreen from "./views/404Screen";
+import Footer from "./components/Footer/Footer";
 // Screen Imports
 import AboutScreen from "./views/AboutScreen";
 import ContactUs from "./views/ContactUs";

@@ -8,7 +8,6 @@ export default function Serv() {
                 <div className="inner-width">
                     <div className="border"></div>
                     <div className="services-container">
-
                         <div className="service-box">
                             <div className="service-icon">
                                 <i className="fas fa-paint-brush"></i>
@@ -64,7 +63,7 @@ export default function Serv() {
                             </div>
                             <div className="service-title">Android</div>
                             <div className="service-desc">
-                                Android Dev using React-Native (cross-platform), Xamrin or Kotlin
+                                Android Dev with React-Native (cross-platform), Xamrin or Kotlin
                         </div>
                         </div>
                     </div>

@@ -1,9 +1,10 @@
 import React from 'react'
+import About from '../components/AboutUs/About'
 
 export default function AboutScreen() {
     return (
         <div>
-            <h1 style={{textAlign:"center"}}>About Screen</h1>
+            <About/>
         </div>
     )
 }
