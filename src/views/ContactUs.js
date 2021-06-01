@@ -1,10 +1,11 @@
 import React from 'react';
 import '../css/Contactus.css';
 import { openInNewTab } from '../Functions';
-import Whatsapp from '../Images/Whatsapp.svg';
+import Whatsapp from '../Images/wts.png';
 import Phone from '../Images/Phone.svg';
 import Mail from '../Images/Mail.svg';
-import Instagram from '../Images/Insta.svg'
+import Instagram from '../Images/ins.png'
+import { Link } from 'react-router-dom';
 
 export default function ContactUs() {
     return (
@@ -23,7 +24,7 @@ export default function ContactUs() {
                             <div className="title">Phone Numbers</div>
                         </div>
                         <ul>
-                            <button onClick={() => openInNewTab("https://www.instagram.com/conceilax/")}><i className="fas fa-phone"></i></button>
+                            <Link to="/num"><button><i className="fas fa-phone"></i></button></Link>
                         </ul>
                     </div>
                 </div>
@@ -38,7 +39,7 @@ export default function ContactUs() {
                             <div className="title">Email Us</div>
                         </div>
                         <ul>
-                            <button onClick={() => openInNewTab("https://www.instagram.com/conceilax/")}><i className="far fa-envelope"></i></button>
+                            <Link to="/em"><button><i className="far fa-envelope"></i></button></Link>
                         </ul>
                     </div>
                 </div>
@@ -68,7 +69,7 @@ export default function ContactUs() {
                             <div className="title">Whatsapp</div>
                         </div>
                         <ul>
-                            <button onClick={() => openInNewTab("https://www.instagram.com/conceilax/")}><i className="fab fa-whatsapp"></i></button>
+                            <Link to="/comingsoon"><button><i className="fab fa-whatsapp"></i></button></Link>
                         </ul>
                     </div>
                 </div>

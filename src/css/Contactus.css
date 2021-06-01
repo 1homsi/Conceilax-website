@@ -105,6 +105,25 @@
   transition: all 0.5s ease;
 }
 
+.linkb {
+  display: block;
+  height: 40px;
+  width: 60px;
+  color: #fff;
+  text-align: center;
+  margin: 0 5px;
+  line-height: 38px;
+  border: 2px solid transparent;
+  border-radius: 7%;
+  background: #5af;
+  transition: all 0.5s ease;
+}
+.linkb:hover {
+  color: #5af;
+  border-color: #5af;
+  background: linear-gradient(375deg, transparent, transparent);  
+}
+
 .back-face ul button:hover {
   color: #5af;
   border-color: #5af;

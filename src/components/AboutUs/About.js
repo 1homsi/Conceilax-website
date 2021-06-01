@@ -9,11 +9,13 @@ export default function About() {
         <div className="inner-section">
           <h1 className="AboutTop">About Us</h1>
           <p className="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            velit ducimus, enim inventore earum, eligendi nostrum pariatur
-            necessitatibus eius dicta a voluptates sit deleniti autem error eos
-            totam nisi neque voluptates sit deleniti autem error eos totam nisi
-            neque.
+          Welcome to Conceilax, from now on your number one go to organization for all sorts of development. 
+          We're dedicated to providing you the best development, with a focus 
+          on dependability. customer service, and the best outcomes.
+          </p>
+          <p className="text">
+          We're working to turn your ideas into reality. 
+          We hope you enjoy our services as much as we enjoy offering them to you.
           </p>
           <div className="skills">
             <Link to="/contact-us"><button>Contact Us</button></Link>

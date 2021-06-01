@@ -40,7 +40,8 @@ export default function Serv() {
 
                         <div className="service-box">
                             <div className="service-icon">
-                                <i className="fas fa-object-ungroup"></i>
+                                <i className="fas fa-gamepad"></i>
+                                {/* <i className="fas fa-object-ungroup"></i> */}
                             </div>
                             <div className="service-title">Game dev</div>
                             <div className="service-desc">
@@ -59,11 +60,12 @@ export default function Serv() {
 
                         <div className="service-box">
                             <div className="service-icon">
-                                <i className="fab fa-android"></i>
+                                <i className="fas fa-mobile"></i>
+                                {/* <i className="fab fa-android"></i> */}
                             </div>
-                            <div className="service-title">Android</div>
+                            <div className="service-title">Mobile</div>
                             <div className="service-desc">
-                                Android Dev with React-Native (cross-platform), Xamrin or Kotlin
+                                Cross platform Dev with React-Native, Flutter, Xamrin.
                         </div>
                         </div>
                     </div>

@@ -31,7 +31,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 390px;
+    height: 440px;
     position: absolute;
     top: 60px;
     left: -100%;
@@ -43,7 +43,7 @@
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
-    z-index: 1;
+    z-index: 2;
   }
 
   .navb-links {
